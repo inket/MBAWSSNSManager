@@ -57,10 +57,6 @@
     [self createPlatformEndpointWithDeviceToken:deviceToken];
 }
 
-- (void)receivedDeviceToken:(NSData*)deviceToken {
-    [self createPlatformEndpointWithDeviceToken:deviceToken];
-}
-
 - (BFTask*)createPlatformEndpointWithDeviceToken:(NSData *)deviceToken {
     // Get a hex string for the NSData deviceToken
     // http://stackoverflow.com/questions/7520615/how-to-convert-an-nsdata-into-an-nsstring-hex-string
