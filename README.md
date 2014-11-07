@@ -13,6 +13,8 @@ This allows you to receive broadcast Push notifications from Amazon Web Services
 
 ## Usage
 
+Add `pod AWSiOSSDKv2` to your Podfile then run `pod install`
+
 	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 		[self registerForNotifications];
 	}
@@ -42,4 +44,4 @@ This allows you to receive broadcast Push notifications from Amazon Web Services
 	}
 
 
-For more details see the blog post (not finished yet) @ [Interfirm](http://blog.interfirm.co.jp)
+For more details see the blog post @ [Interfirm's blog](http://blog.interfirm.co.jp/entry/2014/11/07/184629)
